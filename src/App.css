@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form{
+  background-color: transparent;
+  width: 80%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+.formhome{
+  background-color: transparent;
+  width: 100%;
+}
+input{
+  width: 90%;
+  height: 40px;
+  border: 1px solid gray;
+  margin: 5px;
+  border-radius: 5px;
+  padding-left:5px ;
+}
+textarea{
+  width: 90%;
+  padding-left:5px ;
+  border: 1px solid gray;
+  margin: 5px;
+  border-radius: 5px;
+}
+.btn{
+  background-color:#FECC2A;
+  border: none;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+.intro{
+ 
+  width: 100%;
+  height:auto;
+  background-image: url("./Assets/banner1.jpg");
+  background-position:center;
+  
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+    @media screen and (max-width:520px) {
+      .intro{
+       
+        width: 100%;
+        height: auto;
+        background-image: url("./Assets/banner1.jpg");
+        background-repeat: repeat;
+        color: white;
+        background-position: left;
+      }
+      .form{
+        display: flex;
+        background-color: transparent;
+       width: 100%;
+      
+        justify-content: center;
+        align-items: center;
+      
+        padding-left: 20px;
+      }
+    
+    }
+    .whats-app {
+      position: fixed;
+      width: 50px;
+      height: 50px;
+      bottom: 40px;
+      background-color: #25d366;
+      color: #FFF;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 3px 4px 3px #999;
+      right: 15px; /* Change 'left' to 'right' */
+      z-index: 100;
+    }
+    
+  
+  .my-float {
+      margin-top: 10px;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
