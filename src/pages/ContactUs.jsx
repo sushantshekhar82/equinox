@@ -20,13 +20,13 @@ const ContactUs = () => {
    <Box>
       <Helmet>
   <meta charset="UTF-8"/>
-<meta name="description" content="Ananya Interiors Contact Us"/>
-<meta name="keywords" content="Ananya Interiors,contact us, kitchen interiors, bedroom interiors, dining room interiors, balcony interiors,living room intriors,guest room interiors"/>
-<title>Contact us @ Ananya Interiors</title>
+<meta name="description" content="Equinox Home Designs Contact Us"/>
+<meta name="keywords" content="Equinox Home Designs,contact us, kitchen interiors, bedroom interiors, dining room interiors, balcony interiors,living room intriors,guest room interiors"/>
+<title>Contact us @ Equinox Home Designs</title>
   </Helmet>
   <Navbar/>
 
-    <Box padding={'10px'} backgroundColor={'#FECC2A'}>
+    <Box padding={'10px'} backgroundColor={'#141438'}>
     <Grid templateColumns={{base:'1fr',lg:'1fr 1fr'}} justifyContent={'center'} alignItems={'center'}>
            <GridItem>
             <Image src="./contact.webp" />
@@ -34,10 +34,10 @@ const ContactUs = () => {
            <GridItem>
            <Stack spacing={8} mx={'auto'}  py={5} px={2}  justifyContent={'center'} alignItems={'center'}>
         <Stack align={'center'}>
-          <Heading fontSize={'4xl'} textAlign={'center'} fontWeight={'bold'} color={'#E58000'}>
+          <Heading fontSize={'4xl'} textAlign={'center'} fontWeight={'bold'} color={'#141438'}>
             Get in Touch
           </Heading>
-          <Text fontSize={'2xl'} color={'black.600'} fontWeight={'bold'}>
+          <Text fontSize={'2xl'} color={'white'} fontWeight={'bold'}>
          Design for Every Budget
           </Text>
         </Stack>
@@ -50,7 +50,7 @@ const ContactUs = () => {
     <input type="email" name="email" placeholder="Your Email" required/><br/>
     
     <textarea name="body" rows="5" cols="30" placeholder="Your Message here" required></textarea><br/>
-    <input type="submit" value="Send"  className='btn' style={{backgroundColor:'#E58000'}}/>
+    <input type="submit" value="Send"  className='btn' style={{backgroundColor:'white',color:'#141438'}}/>
   </form>
   </Box>
       </Stack>
@@ -58,64 +58,63 @@ const ContactUs = () => {
         </Grid>
         </Box>
        <Box padding={'10px'}>
-       <Text fontSize={{base:'4xl',lg:'5xl'}} fontWeight={'bold'} color={'#FECC2A'} textAlign={'center'}>
+       <Text fontSize={{base:'4xl',lg:'5xl'}} fontWeight={'bold'} color={'#141438'} textAlign={'center'}>
         Contact Us
         </Text>
         <Box width={'70%'} margin={'auto'}>
-        <Text fontSize={'3xl'} fontWeight={'bold'} color={'#E58000'}  >Call Us</Text>
+        <Text fontSize={'3xl'} fontWeight={'bold'} color={'#141438'}  >Call Us</Text>
                 <Text fontSize={'md'}>We are always ready to help you.</Text>
-                <Flex color={'#E58000'}  alignItems={'center'} gap={2}fontSize={'2xl'}><AiOutlinePhone/><Text>9035473892</Text></Flex>
+                <Flex color={'#141438'}  alignItems={'center'} gap={2}fontSize={'2xl'}><AiOutlinePhone/><Text>9035473892</Text></Flex>
 
                 <Divider margin={'15px'}/>
-                <Text fontSize={'3xl'} fontWeight={'bold'} color={'#E58000'} >Visit Us</Text>
+                <Text fontSize={'3xl'} fontWeight={'bold'} color={'#141438'} >Visit Us</Text>
                 <Text fontSize={'md'}>You can reach our destination and check our plethora of designs </Text>
-                <Flex color={'#E58000'}  alignItems={'center'} gap={2}   ><HiOutlineLocationMarker fontSize={'30px'}/><Text fontSize={'18px'}> ANANYA INTERIORS Kdathi panchayath office Huskur Road main Road off Sarjapur  Marathahalli Road Bengaluru Karnataka 560035 "</Text></Flex>
+                <Flex color={'#141438'}  alignItems={'center'} gap={2}   ><HiOutlineLocationMarker fontSize={'30px'}/><Text fontSize={'18px'}> Equinox Home Designs Kdathi panchayath office Huskur Road main Road off Sarjapur  Marathahalli Road Bengaluru Karnataka 560035 "</Text></Flex>
                 <Divider  margin={'15px'}/>
-                <Text fontSize={'3xl'} fontWeight={'bold'} color={'#E58000'} >Chat</Text>
+                <Text fontSize={'3xl'} fontWeight={'bold'} color={'#141438'} >Chat</Text>
                 <Text fontSize={'md'}>Chat with us on Whatsapp we try to understand your need provide what you acutally want.</Text>
-                <Flex color={'#E58000'}  alignItems={'center'} gap={2} fontSize={'2xl'}><BsWhatsapp/><Text>9035473892</Text></Flex>
+                <Flex color={'#141438'}  alignItems={'center'} gap={2} fontSize={'2xl'}><BsWhatsapp/><Text>9035473892</Text></Flex>
 
         </Box>
         </Box>
         <Box marginTop={'20px'}>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.321297934013!2d77.71459697425304!3d12.887049716728034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae13a6ec9583e1%3A0xc24ff3d629e0a378!2sAnanya%20interiors!5e0!3m2!1sen!2sin!4v1687762111952!5m2!1sen!2sin" width="100%" height="500px"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
-        </Box>
-        <Text fontSize={'4xl'} textAlign={'center'} fontWeight={'bold'} marginTop={'20px'} color={'#FECC2A'}>FAQ</Text>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.615152902597!2d77.7055327737146!3d12.932438587379298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae13dc4ab5a63f%3A0x36c6fe783d42ce2d!2sEQUINOX%20HOME%20INTERIOR!5e0!3m2!1sen!2sin!4v1692602729387!5m2!1sen!2sin" width="100%" height="450px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </Box>
+        <Text fontSize={'4xl'} textAlign={'center'} fontWeight={'bold'} marginTop={'20px'} color={'#141438'}>FAQ</Text>
         <Box width={{base:'85%',lg:'50%'} } margin={'auto'} data-aos="zoom-in-up">
         <Accordion allowToggle>
   <AccordionItem>
     <h2>
       <AccordionButton>
         <Box as="span" flex='1' textAlign='left'>
-          <Text fontWeight={'bold'}>What services does Ananya Interiors offer?</Text>
+          <Text fontWeight={'bold'}>What services does Equinox Home Designs offer?</Text>
         </Box>
         <AccordionIcon />
       </AccordionButton>
     </h2>
     <AccordionPanel pb={4}>
         <Text textAlign={'justify'}>
-        Ananya Interiors specializes in interior design services for both homes and offices. We provide a range of services, including concept development, space planning, material selection, furniture procurement, lighting design, and project management. Our team is dedicated to creating beautiful and functional spaces that reflect the unique preferences and requirements of our clients. </Text>
+        Equinox Home Designs specializes in interior design services for both homes and offices. We provide a range of services, including concept development, space planning, material selection, furniture procurement, lighting design, and project management. Our team is dedicated to creating beautiful and functional spaces that reflect the unique preferences and requirements of our clients. </Text>
     </AccordionPanel>
   </AccordionItem>
   <AccordionItem>
     <h2>
       <AccordionButton>
         <Box as="span" flex='1' textAlign='left'>
-          <Text fontWeight={'bold'}>How does Ananya Interiors approach the design process?</Text>
+          <Text fontWeight={'bold'}>How does Equinox Home Designs approach the design process?</Text>
         </Box>
         <AccordionIcon />
       </AccordionButton>
     </h2>
     <AccordionPanel pb={4}>
     <Text textAlign={'justify'}>
-    At Ananya Interiors, we believe in a collaborative approach to design. We work closely with our clients, taking the time to understand their vision, lifestyle, and budget. Our team of skilled designers combines creativity and innovation to develop concept designs and detailed plans. We ensure clear communication and client involvement throughout the process to achieve the desired outcome.   </Text>
+    At Equinox Home Designs, we believe in a collaborative approach to design. We work closely with our clients, taking the time to understand their vision, lifestyle, and budget. Our team of skilled designers combines creativity and innovation to develop concept designs and detailed plans. We ensure clear communication and client involvement throughout the process to achieve the desired outcome.   </Text>
     </AccordionPanel>
   </AccordionItem>
   <AccordionItem>
     <h2>
       <AccordionButton>
         <Box as="span" flex='1' textAlign='left'>
-          <Text fontWeight={'bold'}>What is the quality of materials and craftsmanship provided by Ananya Interiors?</Text>
+          <Text fontWeight={'bold'}>What is the quality of materials and craftsmanship provided by Equinox Home Designs?</Text>
         </Box>
         <AccordionIcon />
       </AccordionButton>
@@ -129,7 +128,7 @@ const ContactUs = () => {
     <h2>
       <AccordionButton>
         <Box as="span" flex='1' textAlign='left'>
-        <Text fontWeight={'bold'}>What kind of support can clients expect from Ananya Interiors?
+        <Text fontWeight={'bold'}>What kind of support can clients expect from Equinox Home Designs?
 </Text>
         </Box>
         <AccordionIcon />
@@ -137,14 +136,14 @@ const ContactUs = () => {
     </h2>
     <AccordionPanel pb={4}>
     <Text textAlign={'justify'}>
-    At Ananya Interiors, we prioritize customer satisfaction and aim to provide comprehensive support to our clients. From the initial consultation to project completion, we offer professional guidance, expertise, and timely communication. Our team is available to address any queries or concerns throughout the design process and even after the project is completed. We believe in building long-term relationships with our clients and providing ongoing support whenever needed.   </Text>
+    At Equinox Home Designs, we prioritize customer satisfaction and aim to provide comprehensive support to our clients. From the initial consultation to project completion, we offer professional guidance, expertise, and timely communication. Our team is available to address any queries or concerns throughout the design process and even after the project is completed. We believe in building long-term relationships with our clients and providing ongoing support whenever needed.   </Text>
     </AccordionPanel>
   </AccordionItem>
   <AccordionItem>
     <h2>
       <AccordionButton>
         <Box as="span" flex='1' textAlign='left'>
-        <Text fontWeight={'bold'}>How does Ananya Interiors ensure timely project delivery and adherence to budgets?
+        <Text fontWeight={'bold'}>How does Equinox Home Designs ensure timely project delivery and adherence to budgets?
 </Text>
         </Box>
         <AccordionIcon />

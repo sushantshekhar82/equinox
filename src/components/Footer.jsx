@@ -85,8 +85,9 @@ export default function Footer() {
 
   return (
     <Box
-     backgroundColor={'#FECC2A'}
+     backgroundColor={'#141438'}
       marginTop={'10px'}
+      color={'white'}
       >
       <Container as={Stack} maxW={'6xl'} py={10}>
         <SimpleGrid
@@ -98,7 +99,7 @@ export default function Footer() {
             <Box>
               <Flex gap={4}>
             <Link to='/'> 
-            <Text fontWeight={'bold'} fontSize={'2xl'}>Ananya Interiors</Text></Link>
+            <Text fontWeight={'bold'} fontSize={'2xl'}>Equinox Home Designs</Text></Link>
             </Flex>
             </Box>
             
@@ -127,17 +128,17 @@ export default function Footer() {
           alignItems={{base:'center'}}>
             <ListHeader>Contact Us</ListHeader>
             <Flex justifyContent={'space-around'} gap={5} alignItems={'center'}>
-            <a href="tel:9035473892"> <Button bgColor={'#E58000'} color={'white'} gap={2}><AiOutlinePhone/> Call Me</Button></a><a
+            <a href="tel:9035473892"> <Button bgColor={'white'} color={'#141438'} gap={2}><AiOutlinePhone/> Call Me</Button></a><a
           href="https://api.whatsapp.com/send/?phone=9035473892&text=Hi+this+is+Ananya+Interiors%2C+Leave+your+message&type=phone_number&app_absent=0"
           target="_blank"
           rel="noreferrer"
-        ><Button bgColor={'#E58000'} color={'white'} gap={2}><BsWhatsapp/> Whatsapp</Button></a>
+        ><Button bgColor={'white'} color={'#141438'} gap={2}><BsWhatsapp/>Whatsapp</Button></a>
             </Flex>
           </Stack>
          
         </SimpleGrid>
         <Text fontSize={'sm'} marginTop={'15px'}>
-        ©2023 Ananya Interiors , All rights reserved. Designed and Developed by <a href="https://www.accentnext.com/" target="_blank">Accentnext Technologies V.01.06.01</a>.
+        ©2023 Equinox Home Desingns , All rights reserved. Designed and Developed by <a href="https://www.accentnext.com/" target="_blank">Accentnext Technologies V.01.06.01</a>.
             </Text>
       </Container>
     </Box>

@@ -7,12 +7,11 @@ const AboutUs = () => {
     <Box>
         <Helmet>
   <meta charset="UTF-8"/>
-<meta name="description" content="Ananya Interiors About us"/>
-<meta name="keywords" content="Ananya Interiors,About us, kitchen interiors, bedroom interiors, dining room interiors, balcony interiors,living room intriors,guest room interiors"/>
+<meta name="description" content="Equinox Home Designs About us"/>
+<meta name="keywords" content="Equinox Home Designs,About us, kitchen interiors, bedroom interiors, dining room interiors, balcony interiors,living room intriors,guest room interiors"/>
 <title>About const [state, setstate] = useState(initialState) </title>
   </Helmet>
   <Navbar/>
-    <Image src="./aboutusbanner1.jpg" alt='about us' borderRadius={'10px'} width={'100%'} height={{base:'300px',lg:'450px'}}/>
     <Grid templateColumns={{ base: '1fr', lg: '1fr 1fr' }} templateRows={{base:'auto',lg:'auto'}}   marginTop={'30px'} justifyContent={'center'} alignItems={'center'}>
       <GridItem order={{ base: -1, lg: 1 }}  data-aos="zoom-in-up" padding={'10px'}>
       <Box
@@ -34,7 +33,7 @@ maxWidth="100%" marginTop={'2px'} alt='team'/>
       <GridItem  justifyContent={'center'} alignItems={'center'}  data-aos="zoom-in-right">
         <Box width={{base:'100%',lg:'75%'}} margin={'auto'} padding={{base:5,lg:10}}>
         <Text
-          color={'#FECC2A'}
+          color={'#141438'}
           textAlign={'left'}
           fontSize="5xl"
           fontWeight="bold"
@@ -42,7 +41,7 @@ maxWidth="100%" marginTop={'2px'} alt='team'/>
         >
           About Us
         </Text>
-       <Text fontSize={'xl'} textAlign={'justify'}>Ananya Interiors is a leading interior design company located on the vibrant Sarjapur-Marathahalli Road in Bengaluru. With a strong commitment to creating beautiful and functional spaces, we specialize in providing top-notch interior design services for both homes and offices.
+       <Text fontSize={'xl'} textAlign={'justify'}>Equinox Home Designs is a leading interior design company located on the vibrant Sarjapur-Marathahalli Road in Bengaluru. With a strong commitment to creating beautiful and functional spaces, we specialize in providing top-notch interior design services for both homes and offices.
 
 Our team of highly skilled and experienced designers understands the unique requirements and aspirations of our clients. We believe in translating their vision into reality by combining creativity, functionality, and innovation. From concept development to execution, we strive to deliver exceptional design solutions that exceed expectations.
 </Text>
@@ -68,14 +67,14 @@ Our team of highly skilled and experienced designers understands the unique requ
       <GridItem  justifyContent={'center'} alignItems={'center'}  data-aos="zoom-in-right">
         <Box width={{base:'100%',lg:'80%'}} margin={'auto'} padding={{base:5,lg:10}}>
         <Text
-          color={'#FECC2A'}
+          color={'#141438'}
           textAlign={'left'}
           fontSize="5xl"
           fontWeight="bold"
         >
          Our Process
         </Text>
-       <Text fontSize={'xl'} textAlign={'justify'}>At Ananya Interiors, our interior design process begins with a personalized consultation where we understand your requirements and vision. Our expert team then creates customized design concepts and plans, ensuring clear communication and client involvement throughout. Contact us today to schedule a visit and let us transform your space into a reflection of your dreams.</Text>
+       <Text fontSize={'xl'} textAlign={'justify'}>At Equinox Home Designs, our interior design process begins with a personalized consultation where we understand your requirements and vision. Our expert team then creates customized design concepts and plans, ensuring clear communication and client involvement throughout. Contact us today to schedule a visit and let us transform your space into a reflection of your dreams.</Text>
        </Box>
       </GridItem>
       

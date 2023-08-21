@@ -32,14 +32,14 @@ export default function Navbar() {
   return (
     <Box   position="fixed"
     width={{base:'100%',lg:'100%'}}
-    height={"30px"}
+  
     top={0}
     zIndex={100}>
       
       <Flex
         bg={useColorModeValue('white', 'gray.800')}
         color={useColorModeValue('gray.600', 'white')}
-        minH={'30px'}
+        minH={'50px'}
         py={{ base: 2 }}
         px={{ base: 4 }}
        align={'center'}
@@ -65,9 +65,8 @@ export default function Navbar() {
             fontFamily={'heading'}
             color={useColorModeValue('gray.800', 'white')}>
            <Link to='/'>
-            <Box width={'auto'} height={'50px'} alignItems={'center'}>
-            {/* <Image src='./mayafurnitures.jpg' alt='Ananya Interiors' width={'100%'} height={'100%'}/> */}
-            <Text color={'#FECC2A'} fontSize={{base:'md',lg:'2xl'}} fontWeight={'bold'}>Ananya Interiors</Text>
+            <Box width={'auto'} height={'60px'} alignItems={'center'}>
+            <Image src='./equinoxlogo.png' alt='Equinox Home Designs' width={'100%'} height={'100%'} />
             </Box>
          </Link> 
           </Text>
@@ -92,10 +91,10 @@ export default function Navbar() {
             fontSize={'sm'}
             fontWeight={600}
             color={'white'}
-            bg={'#FECC2A'}
+            bg={'#141438'}
            
             _hover={{
-              bg: '#E58000',
+              bg: '#141438',
             }}>
             Get Quotes
           </Button></Link>

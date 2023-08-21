@@ -26,7 +26,7 @@ textarea{
   border-radius: 5px;
 }
 .btn{
-  background-color:#FECC2A;
+  background-color:#141438;
   border: none;
   font-size: 20px;
   color: white;
@@ -35,10 +35,10 @@ textarea{
 .intro{
  
   width: 100%;
-  height:auto;
+  height:600px;
   background-image: url("./Assets/banner1.jpg");
-  background-position:center;
-  
+  background-position:bottom;
+  background-size: cover;
   color: white;
 }
 
@@ -51,7 +51,9 @@ textarea{
         background-image: url("./Assets/banner1.jpg");
         background-repeat: repeat;
         color: white;
+        background-size: cover;
         background-position: left;
+        border: 1px solid red;
       }
       .form{
         display: flex;

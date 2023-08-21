@@ -27,52 +27,16 @@ const Home = () => {
     <Box>
         <Helmet>
   <meta charset="UTF-8"/>
-<meta name="description" content="Ananya Interiors"/>
-<meta name="keywords" content="Ananya Interiors, kitchen interiors, bedroom interiors, dining room interiors, balcony interiors,living room intriors,guest room interiors"/>
-<title>Ananya Interiors </title>
+<meta name="description" content="Equinox Home Designs"/>
+<meta name="keywords" content="Equinox Home Designs, kitchen interiors, bedroom interiors, dining room interiors, balcony interiors,living room intriors,guest room interiors"/>
+<title>Equinox Home Designs </title>
   </Helmet>
   <Navbar/>
        <div id="home" className="intro">
-      <Grid templateColumns={{base:'1fr',lg:'1fr 1fr'}} justifyContent={'space-around'} alignItems={'center'} >
-        <GridItem padding={'25px'}>
-       <Text fontSize={{base:'6xl',lg:'6xl'}} fontWeight={'bold'}>
-          Bring home beautiful
-Ananya interiors
-          </Text>
-         <Text color={'#FECC2A'} fontSize={{base:'3xl',lg:'5xl'}} fontWeight={'bold'}>
-            <span>
-              {" "}
-              <Typewriter
-                words={[
-                  "that fits your budget",
-                  "has Classic design",
-                  "give Premium feeling",
-                  "unbelievable design",
-                  " that is unique",
-                ]}
-                loop={500}
-                cursor
-                cursorStyle={"|"}
-                typeSpeed={100}
-                deleteSpeed={100}
-              />
-            </span>
-            </Text>
-
-         
-        
-        </GridItem>
-        <GridItem  justifyContent={'center'} alignItems={'center'}>
-        <Stack mx={'auto'}   justifyContent={'center'} >
-        <Stack align={'center'} margin={'auto'} >
-          <Heading fontSize={'5xl'} textAlign={'center'} fontWeight={'bold'} color={{base:'white',lg:'#FECC2A'}} marginRight={'20px'}>
-            Get in Touch
-          </Heading>
-          <Text fontSize={'2xl'} color={'black.600'} fontWeight={'bold'} marginRight={'20px'}>
-        We  design for every budget
-          </Text>
-        
-        <Box className="form" margin={'auto'}  >
+        <Box margin={'auto'} float={'left'}  width={'500'} height={'auto'} marginTop={{base:'20px',lg:'100px'}} marginLeft={{base:'15px',lg:'150px'}} >
+       <Text as={'h1'} color={{base:'#141438',lg:'white'}}  textAlign={'center'} fontSize={'25px'} fontWeight={'bold'}>Meet Our Designers</Text>
+       <Box className="form"  margin={'auto'}>
+       
         <form action="mailto:annanyainteriors@gmail.com" method="post" enctype="text/plain" autoComplete='off'  >
    
     <input type="text" name="Name" placeholder="Name" required/><br/>
@@ -84,136 +48,98 @@ Ananya interiors
     <input type="submit" value="Send"  className='btn'/>
   </form>
   </Box>
-      </Stack>
-      </Stack>
-        </GridItem>
-      </Grid>
+  </Box>
+     
       </div>
       <Box padding={'25px'}>
-        <Text fontSize={{base:'4xl',lg:'5xl'}} fontWeight={'bold'} color={'#FECC2A'}>
+        <Text fontSize={{base:'4xl',lg:'5xl'}} fontWeight={'bold'} color={'#141438'}>
           Services we are giving
         </Text>
         <CardCarousel/>
 
       </Box>
       <Box padding={'25px'}>
-      <Text fontSize={{base:'4xl',lg:'5xl'}} fontWeight={'bold'} color={'#FECC2A'}>
+      <Text fontSize={{base:'4xl',lg:'5xl'}} fontWeight={'bold'} color={'#141438'}>
          Why Choose Us?
         </Text>
-        <Grid templateColumns={{base:'1fr',lg:'1fr 1fr 1fr'}}   templateRows={{base:'200px',lg:'250px'}}gap={{base:'15px',lg:'px'}} justifyContent={'flex-start'} alignItems={'center'} marginTop={'50px'}>
+        <Grid templateColumns={{base:'1fr 1fr',lg:'1fr 1fr 1fr 1fr'}}    templateRows={{base:'200px',lg:'250px'}}gap={{base:'5px',lg:'1px'}} justifyContent={'center'} alignItems={'center'} marginTop={'50px'}>
           <GridItem>
-              <Grid templateColumns={'30% 70%'}gap={{base:'5px',lg:'1px'}} >
+              <Grid templateColumns={'1% 99%'}gap={{base:'5px',lg:'1px'}} justifyContent={'center'} alignItems={'center'}>
                   <GridItem>
-                    <MdOutlineVerified color={'#E58000'} fontSize={'100px'}/>
+                   
                   </GridItem>
                   <GridItem>
-                    <Grid templateRows={'auto auto'}>
-                      <GridItem><Text fontSize={{base:'3xl',lg:'3xl'}} fontWeight={'bold'} color={'#E58000'}>
-                      Quality Materials 
-        </Text></GridItem>
+                    <Grid templateRows={'auto auto'} justifyContent={'center'} alignItems={'center'}>
                       <GridItem>
-                        <Text>At our company, we always ensure customer satisfaction and selcet premium materials  from reputable suppliers. We prioritize our customers' budgets,and ensures they get happy.</Text>
-                      </GridItem>
+                      <MdOutlineVerified color={'#141438'} fontSize={'100px'}/> 
+       </GridItem>
+                      <GridItem>
+                 <Text as='h3' >  100+ Design Experts</Text>
+                        </GridItem>
                     </Grid>
                     
                     </GridItem>
               </Grid>
           </GridItem>
           <GridItem  >
-          <Grid templateColumns={'30% 70%'}gap={{base:'5px',lg:'1px'}}   marginTop={{base:'10px',lg:'5px'}}>
+          <Grid templateColumns={'1% 99%'}gap={{base:'5px',lg:'1px'}}   marginTop={{base:'10px',lg:'5px'}}>
                   <GridItem>
-                    <TbShoppingCartDiscount color={'#E58000'} fontSize={'100px'}/>
+                   
                   </GridItem>
                   <GridItem>
-                    <Grid templateRows={'auto auto'} >
-                      <GridItem><Text fontSize={{base:'3xl',lg:'3xl'}} fontWeight={'bold'} color={'#E58000'}>
+                    <Grid templateRows={'auto auto'} justifyContent={'center'} alignItems={'center'} >
+                      <GridItem> <TbShoppingCartDiscount color={'#141438'} fontSize={'100px'}/></GridItem>
+                      <GridItem>
+                      
                       Luxurious Design
-        </Text></GridItem>
-                      <GridItem>
-                        <Text>Our team of designers specializes in creating luxurious spaces that exude elegance and sophistication. We have a keen eye for detail and a deep understanding of the elements that contribute to a luxurious aesthetic.</Text>
-                      </GridItem>
+        </GridItem>
                     </Grid>
                     
                     </GridItem>
               </Grid>
           </GridItem>
           <GridItem>
-          <Grid templateColumns={'30% 70%'} gap={{base:'5px',lg:'1px'}} >
+          <Grid templateColumns={'1% 99%'} gap={{base:'5px',lg:'1px'}} >
                   <GridItem>
-                    <BsBagHeart color={'#E58000'} fontSize={'100px'}/>
+                   
                   </GridItem>
                   <GridItem>
-                    <Grid templateRows={'auto auto'}>
-                      <GridItem><Text fontSize={{base:'3xl',lg:'3xl'}} fontWeight={'bold'} color={'#E58000'}>
-                      Client Satisfaction
-        </Text></GridItem>
+                    <Grid templateRows={'auto auto'} justifyContent={'center'} alignItems={'center'}>
+                      <GridItem> <BsBagHeart color={'#141438'} fontSize={'100px'}/>
+                     
+       </GridItem>
                       <GridItem>
-                        <Text>Your satisfaction is our top priority. We believe in building long-term relationships with our clients, and we go the extra mile to ensure that you are delighted with the end result. </Text>
-                      </GridItem>
+                     500+ Happy Customers </GridItem>
                     </Grid>
                     
                     </GridItem>
               </Grid>
           </GridItem>
           <GridItem>
-          <Grid templateColumns={'30% 70%'}gap={{base:'5px',lg:'1px'}} >
+          <Grid templateColumns={'1% 99%'}gap={{base:'5px',lg:'1px'}} >
                   <GridItem>
-                    <RiCustomerService2Fill color={'#E58000'} fontSize={'100px'}/>
+                   
                   </GridItem>
                   <GridItem>
-                    <Grid templateRows={'auto auto'}>
-                      <GridItem><Text fontSize={{base:'3xl',lg:'3xl'}} fontWeight={'bold'} color={'#E58000'}>
-                      Customer Support
-        </Text></GridItem>
+                    <Grid templateRows={'auto auto'} justifyContent={'center'} alignItems={'center'}>
+                      <GridItem> <RiCustomerService2Fill color={'#141438'} fontSize={'100px'}/>
+                     
+        </GridItem>
                       <GridItem>
-                        <Text>We take pride in delivering exceptional customer support. Our dedicated team is readily available round the clock to assist you promptly and efficiently, addressing any queries or concerns you may encounter along the way.</Text>
-                      </GridItem>
+                      Customer Support </GridItem>
                     </Grid>
                     
                     </GridItem>
               </Grid>
           </GridItem>
           <GridItem>
-          <Grid templateColumns={'30% 70%'}gap={{base:'5px',lg:'1px'}}>
-                  <GridItem>
-                    <CiDiscount1 color={'#E58000'} fontSize={'100px'}/>
-                  </GridItem>
-                  <GridItem>
-                    <Grid templateRows={'auto auto'}>
-                      <GridItem><Text fontSize={{base:'3xl',lg:'3xl'}} fontWeight={'bold'} color={'#E58000'}>
-                      Free Consultation
-        </Text></GridItem>
-                      <GridItem>
-                        <Text>We understand that every client has unique requirements and preferences when it comes to interior design. That's why we offer a free consultation to understand your specific needs and discuss your lifestyle</Text>
-                      </GridItem>
-                    </Grid>
-                    
-                    </GridItem>
-              </Grid>
-          </GridItem>
-          <GridItem>
-          <Grid templateColumns={'30% 70%'}gap={{base:'5px',lg:'1px'}}>
-                  <GridItem>
-                    <HiHome color={'#E58000'} fontSize={'100px'}/>
-                  </GridItem>
-                  <GridItem>
-                    <Grid templateRows={'auto auto'}>
-                      <GridItem><Text fontSize={{base:'3xl',lg:'3xl'}} fontWeight={'bold'} color={'#E58000'}>
-                      Lifestyle-Focused 
-        </Text></GridItem>
-                      <GridItem>
-                        <Text>We firmly believe that interior design should be centered around your lifestyle. Our team takes the time to understand your daily routines, preferences, and how you utilize your space. </Text>
-                      </GridItem>
-                    </Grid>
-                    
-                    </GridItem>
-              </Grid>
+         
           </GridItem>
         </Grid>
       </Box>
 
       <Box padding={'25px'}>
-      <Text fontSize={{base:'4xl',lg:'5xl'}} fontWeight={'bold'} color={'#FECC2A'}>
+      <Text fontSize={{base:'4xl',lg:'5xl'}} fontWeight={'bold'} color={'#141438'}>
           We are designing
         </Text>
         <Grid templateColumns={{base:'1fr',lg:'1fr 1fr 1fr'}} gap={5} justifyContent={'center'} alignItems={'center'}>
@@ -247,66 +173,43 @@ Ananya interiors
 
         </Grid>
       </Box>
-      <Box backgroundColor={'#FECC2A'} padding={'25px'} color={'white'}>
-        <Grid templateColumns={{base:'1fr 1fr',lg:'1fr 1fr 1fr 1fr'}}  justifyContent={'center'} alignItems={'center'}>
-          <GridItem> <Flex justifyContent={'center'} alignItems={'center'}><Text fontSize={{base:'xl',lg:'4xl'}} fontWeight={'bold'} textAlign={'center'}><NumberIncreaseAnnimation n={500}/></Text><Text fontSize={{base:'md',lg:'3xl'}} fontWeight={'bold'} textAlign={'center'}>+</Text></Flex>
-          <Text fontSize={{base:'md',lg:'3xl'}}fontWeight={'bold'} textAlign={'center'}>Designs</Text>
-         
-     </GridItem>
-     <GridItem> <Flex justifyContent={'center'} alignItems={'center'}><Text fontSize={{base:'xl',lg:'4xl'}} fontWeight={'bold'} textAlign={'center'}><NumberIncreaseAnnimation n={300}/></Text><Text fontSize={{base:'md',lg:'3xl'}} fontWeight={'bold'} textAlign={'center'}>+</Text></Flex>
-          <Text fontSize={{base:'md',lg:'3xl'}} fontWeight={'bold'} textAlign={'center'}>Services Given</Text>
-          </GridItem>
-     
-     <GridItem> <Flex justifyContent={'center'} alignItems={'center'}><Text fontSize={{base:'xl',lg:'4xl'}} fontWeight={'bold'} textAlign={'center'}><NumberIncreaseAnnimation n={5}/></Text><Text fontSize={{base:'md',lg:'3xl'}} fontWeight={'bold'} textAlign={'center'}>+</Text></Flex>
-          <Text fontSize={{base:'md',lg:'3xl'}} fontWeight={'bold'} textAlign={'center'}>Cities</Text>
-           </GridItem>
-           <GridItem> <Flex justifyContent={'center'} alignItems={'center'}><Text fontSize={{base:'xl',lg:'4xl'}} fontWeight={'bold'} textAlign={'center'}><NumberIncreaseAnnimation n={300}/></Text><Text fontSize={{base:'md',lg:'3xl'}} fontWeight={'bold'} textAlign={'center'}>+</Text></Flex>
-          <Text fontSize={{base:'md',lg:'3xl'}} fontWeight={'bold'} textAlign={'center'}>Happy Coustomers</Text>
-          </GridItem>
-      </Grid>
-      </Box>
-      <Box padding={'5px'}>
-      <Text fontSize={{base:'4xl',lg:'5xl'}} fontWeight={'bold'} color={'#FECC2A'} textAlign={'center'}>
-        Testimonials
-        </Text>
-      <CaptionCarousel/>
-      </Box>
-      <Text fontSize={'4xl'} textAlign={'center'} fontWeight={'bold'} marginTop={'20px'} color={'#FECC2A'}>FAQ</Text>
+      
+      <Text fontSize={'4xl'} textAlign={'center'} fontWeight={'bold'} marginTop={'20px'} color={'#141438'}>FAQ</Text>
         <Box width={{base:'85%',lg:'50%'} } margin={'auto'} data-aos="zoom-in-up">
         <Accordion allowToggle>
   <AccordionItem>
     <h2>
       <AccordionButton>
         <Box as="span" flex='1' textAlign='left'>
-          <Text fontWeight={'bold'}>What services does Ananya Interiors offer?</Text>
+          <Text fontWeight={'bold'}>What services does Equinox Home Designs offer?</Text>
         </Box>
         <AccordionIcon />
       </AccordionButton>
     </h2>
     <AccordionPanel pb={4}>
         <Text textAlign={'justify'}>
-        Ananya Interiors specializes in interior design services for both homes and offices. We provide a range of services, including concept development, space planning, material selection, furniture procurement, lighting design, and project management. Our team is dedicated to creating beautiful and functional spaces that reflect the unique preferences and requirements of our clients. </Text>
+        Equinox Home Designs specializes in interior design services for both homes and offices. We provide a range of services, including concept development, space planning, material selection, furniture procurement, lighting design, and project management. Our team is dedicated to creating beautiful and functional spaces that reflect the unique preferences and requirements of our clients. </Text>
     </AccordionPanel>
   </AccordionItem>
   <AccordionItem>
     <h2>
       <AccordionButton>
         <Box as="span" flex='1' textAlign='left'>
-          <Text fontWeight={'bold'}>How does Ananya Interiors approach the design process?</Text>
+          <Text fontWeight={'bold'}>How does Equinox Home Designs approach the design process?</Text>
         </Box>
         <AccordionIcon />
       </AccordionButton>
     </h2>
     <AccordionPanel pb={4}>
     <Text textAlign={'justify'}>
-    At Ananya Interiors, we believe in a collaborative approach to design. We work closely with our clients, taking the time to understand their vision, lifestyle, and budget. Our team of skilled designers combines creativity and innovation to develop concept designs and detailed plans. We ensure clear communication and client involvement throughout the process to achieve the desired outcome.   </Text>
+    At Equinox Home Designs, we believe in a collaborative approach to design. We work closely with our clients, taking the time to understand their vision, lifestyle, and budget. Our team of skilled designers combines creativity and innovation to develop concept designs and detailed plans. We ensure clear communication and client involvement throughout the process to achieve the desired outcome.   </Text>
     </AccordionPanel>
   </AccordionItem>
   <AccordionItem>
     <h2>
       <AccordionButton>
         <Box as="span" flex='1' textAlign='left'>
-          <Text fontWeight={'bold'}>What is the quality of materials and craftsmanship provided by Ananya Interiors?</Text>
+          <Text fontWeight={'bold'}>What is the quality of materials and craftsmanship provided by Equinox Home Designs?</Text>
         </Box>
         <AccordionIcon />
       </AccordionButton>
@@ -320,7 +223,7 @@ Ananya interiors
     <h2>
       <AccordionButton>
         <Box as="span" flex='1' textAlign='left'>
-        <Text fontWeight={'bold'}>What kind of support can clients expect from Ananya Interiors?
+        <Text fontWeight={'bold'}>What kind of support can clients expect from Equinox Home Designs?
 </Text>
         </Box>
         <AccordionIcon />
@@ -328,14 +231,14 @@ Ananya interiors
     </h2>
     <AccordionPanel pb={4}>
     <Text textAlign={'justify'}>
-    At Ananya Interiors, we prioritize customer satisfaction and aim to provide comprehensive support to our clients. From the initial consultation to project completion, we offer professional guidance, expertise, and timely communication. Our team is available to address any queries or concerns throughout the design process and even after the project is completed. We believe in building long-term relationships with our clients and providing ongoing support whenever needed.   </Text>
+    At Equinox Home Designs, we prioritize customer satisfaction and aim to provide comprehensive support to our clients. From the initial consultation to project completion, we offer professional guidance, expertise, and timely communication. Our team is available to address any queries or concerns throughout the design process and even after the project is completed. We believe in building long-term relationships with our clients and providing ongoing support whenever needed.   </Text>
     </AccordionPanel>
   </AccordionItem>
   <AccordionItem>
     <h2>
       <AccordionButton>
         <Box as="span" flex='1' textAlign='left'>
-        <Text fontWeight={'bold'}>How does Ananya Interiors ensure timely project delivery and adherence to budgets?
+        <Text fontWeight={'bold'}>How does Equinox Home Designs ensure timely project delivery and adherence to budgets?
 </Text>
         </Box>
         <AccordionIcon />
