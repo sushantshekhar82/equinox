@@ -31,8 +31,8 @@ const Bedroom = () => {
    <Box>
       <Helmet>
   <meta charset="UTF-8"/>
-<meta name="description" content="Ananya Interiors Bedroom Collections"/>
-<meta name="keywords" content="Ananya Interiors, kitchen interiors, bedroom interiors, dining room interiors, balcony interiors,living room intriors,guest room interiors"/>
+<meta name="description" content="Equinox Home Interior Bedroom Collections"/>
+<meta name="keywords" content="Equinox Home Interior, kitchen interiors, bedroom interiors, dining room interiors, balcony interiors,living room intriors,guest room interiors"/>
 <title>Bedroom</title>
   </Helmet>
   <Navbar/>

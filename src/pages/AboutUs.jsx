@@ -7,8 +7,8 @@ const AboutUs = () => {
     <Box>
         <Helmet>
   <meta charset="UTF-8"/>
-<meta name="description" content="Equinox Home Designs About us"/>
-<meta name="keywords" content="Equinox Home Designs,About us, kitchen interiors, bedroom interiors, dining room interiors, balcony interiors,living room intriors,guest room interiors"/>
+<meta name="description" content="Equinox Home Interior About us"/>
+<meta name="keywords" content="Equinox Home Interior,About us, kitchen interiors, bedroom interiors, dining room interiors, balcony interiors,living room intriors,guest room interiors"/>
 <title>About const [state, setstate] = useState(initialState) </title>
   </Helmet>
   <Navbar/>
@@ -26,7 +26,7 @@ const AboutUs = () => {
   alignItems="center"
   
 >
-          <Image src="./aboutusananya.jpg" borderRadius={'10px'}  objectFit="contain"
+          <Image src="./aboutus.jpg" borderRadius={'10px'}  objectFit="contain"
 maxWidth="100%" marginTop={'2px'} alt='team'/>
       </Box>
            </GridItem>
@@ -41,7 +41,7 @@ maxWidth="100%" marginTop={'2px'} alt='team'/>
         >
           About Us
         </Text>
-       <Text fontSize={'xl'} textAlign={'justify'}>Equinox Home Designs is a leading interior design company located on the vibrant Sarjapur-Marathahalli Road in Bengaluru. With a strong commitment to creating beautiful and functional spaces, we specialize in providing top-notch interior design services for both homes and offices.
+       <Text fontSize={'xl'} textAlign={'justify'}>Equinox Home Interior is a leading interior design company located on the vibrant Sarjapur-Marathahalli Road in Bengaluru. With a strong commitment to creating beautiful and functional spaces, we specialize in providing top-notch interior design services for both homes and offices.
 
 Our team of highly skilled and experienced designers understands the unique requirements and aspirations of our clients. We believe in translating their vision into reality by combining creativity, functionality, and innovation. From concept development to execution, we strive to deliver exceptional design solutions that exceed expectations.
 </Text>
@@ -74,7 +74,7 @@ Our team of highly skilled and experienced designers understands the unique requ
         >
          Our Process
         </Text>
-       <Text fontSize={'xl'} textAlign={'justify'}>At Equinox Home Designs, our interior design process begins with a personalized consultation where we understand your requirements and vision. Our expert team then creates customized design concepts and plans, ensuring clear communication and client involvement throughout. Contact us today to schedule a visit and let us transform your space into a reflection of your dreams.</Text>
+       <Text fontSize={'xl'} textAlign={'justify'}>At Equinox Home Interior, our interior design process begins with a personalized consultation where we understand your requirements and vision. Our expert team then creates customized design concepts and plans, ensuring clear communication and client involvement throughout. Contact us today to schedule a visit and let us transform your space into a reflection of your dreams.</Text>
        </Box>
       </GridItem>
       

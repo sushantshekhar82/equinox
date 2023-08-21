@@ -27,17 +27,17 @@ const Home = () => {
     <Box>
         <Helmet>
   <meta charset="UTF-8"/>
-<meta name="description" content="Equinox Home Designs"/>
-<meta name="keywords" content="Equinox Home Designs, kitchen interiors, bedroom interiors, dining room interiors, balcony interiors,living room intriors,guest room interiors"/>
-<title>Equinox Home Designs </title>
+<meta name="description" content="Equinox Home Interior"/>
+<meta name="keywords" content="Equinox Home Interior, kitchen interiors, bedroom interiors, dining room interiors, balcony interiors,living room intriors,guest room interiors"/>
+<title>Equinox Home Interior </title>
   </Helmet>
   <Navbar/>
        <div id="home" className="intro">
-        <Box margin={'auto'} float={'left'}  width={'500'} height={'auto'} marginTop={{base:'20px',lg:'100px'}} marginLeft={{base:'15px',lg:'150px'}} >
+        <Box margin={'auto'} float={'left'}  width={'500'} height={'auto'} marginTop={{base:'115px',lg:'100px'}} marginLeft={{base:'15px',lg:'150px'}} >
        <Text as={'h1'} color={{base:'#141438',lg:'white'}}  textAlign={'center'} fontSize={'25px'} fontWeight={'bold'}>Meet Our Designers</Text>
        <Box className="form"  margin={'auto'}>
        
-        <form action="mailto:annanyainteriors@gmail.com" method="post" enctype="text/plain" autoComplete='off'  >
+        <form action="mailto:equinoxhomeinterior7@gmail.com" method="post" enctype="text/plain" autoComplete='off'  >
    
     <input type="text" name="Name" placeholder="Name" required/><br/>
     <input type="number" name="contact number" placeholder='Contact Number' required min="10" max="10"/>
@@ -70,10 +70,10 @@ const Home = () => {
                   </GridItem>
                   <GridItem>
                     <Grid templateRows={'auto auto'} justifyContent={'center'} alignItems={'center'}>
-                      <GridItem>
+                      <GridItem paddingLeft={'25px'}>
                       <MdOutlineVerified color={'#141438'} fontSize={'100px'}/> 
        </GridItem>
-                      <GridItem>
+                      <GridItem paddingTop={'10px'}>
                  <Text as='h3' >  100+ Design Experts</Text>
                         </GridItem>
                     </Grid>
@@ -91,7 +91,7 @@ const Home = () => {
                       <GridItem> <TbShoppingCartDiscount color={'#141438'} fontSize={'100px'}/></GridItem>
                       <GridItem>
                       
-                      Luxurious Design
+                      Luxurious Designs
         </GridItem>
                     </Grid>
                     
@@ -104,12 +104,12 @@ const Home = () => {
                    
                   </GridItem>
                   <GridItem>
-                    <Grid templateRows={'auto auto'} justifyContent={'center'} alignItems={'center'}>
-                      <GridItem> <BsBagHeart color={'#141438'} fontSize={'100px'}/>
+                    <Grid templateRows={'auto auto'} justifyContent={'center'} alignItems={'center'} >
+                      <GridItem paddingLeft={'15px'}> <BsBagHeart color={'#141438'} fontSize={'100px'}/>
                      
        </GridItem>
-                      <GridItem>
-                     500+ Happy Customers </GridItem>
+                      <GridItem >
+                     Happy customers </GridItem>
                     </Grid>
                     
                     </GridItem>
@@ -181,35 +181,35 @@ const Home = () => {
     <h2>
       <AccordionButton>
         <Box as="span" flex='1' textAlign='left'>
-          <Text fontWeight={'bold'}>What services does Equinox Home Designs offer?</Text>
+          <Text fontWeight={'bold'}>What services does Equinox Home Interior offer?</Text>
         </Box>
         <AccordionIcon />
       </AccordionButton>
     </h2>
     <AccordionPanel pb={4}>
         <Text textAlign={'justify'}>
-        Equinox Home Designs specializes in interior design services for both homes and offices. We provide a range of services, including concept development, space planning, material selection, furniture procurement, lighting design, and project management. Our team is dedicated to creating beautiful and functional spaces that reflect the unique preferences and requirements of our clients. </Text>
+        Equinox Home Interior specializes in interior design services for both homes and offices. We provide a range of services, including concept development, space planning, material selection, furniture procurement, lighting design, and project management. Our team is dedicated to creating beautiful and functional spaces that reflect the unique preferences and requirements of our clients. </Text>
     </AccordionPanel>
   </AccordionItem>
   <AccordionItem>
     <h2>
       <AccordionButton>
         <Box as="span" flex='1' textAlign='left'>
-          <Text fontWeight={'bold'}>How does Equinox Home Designs approach the design process?</Text>
+          <Text fontWeight={'bold'}>How does Equinox Home Interior approach the design process?</Text>
         </Box>
         <AccordionIcon />
       </AccordionButton>
     </h2>
     <AccordionPanel pb={4}>
     <Text textAlign={'justify'}>
-    At Equinox Home Designs, we believe in a collaborative approach to design. We work closely with our clients, taking the time to understand their vision, lifestyle, and budget. Our team of skilled designers combines creativity and innovation to develop concept designs and detailed plans. We ensure clear communication and client involvement throughout the process to achieve the desired outcome.   </Text>
+    At Equinox Home Interior, we believe in a collaborative approach to design. We work closely with our clients, taking the time to understand their vision, lifestyle, and budget. Our team of skilled designers combines creativity and innovation to develop concept designs and detailed plans. We ensure clear communication and client involvement throughout the process to achieve the desired outcome.   </Text>
     </AccordionPanel>
   </AccordionItem>
   <AccordionItem>
     <h2>
       <AccordionButton>
         <Box as="span" flex='1' textAlign='left'>
-          <Text fontWeight={'bold'}>What is the quality of materials and craftsmanship provided by Equinox Home Designs?</Text>
+          <Text fontWeight={'bold'}>What is the quality of materials and craftsmanship provided by Equinox Home Interior?</Text>
         </Box>
         <AccordionIcon />
       </AccordionButton>
@@ -223,7 +223,7 @@ const Home = () => {
     <h2>
       <AccordionButton>
         <Box as="span" flex='1' textAlign='left'>
-        <Text fontWeight={'bold'}>What kind of support can clients expect from Equinox Home Designs?
+        <Text fontWeight={'bold'}>What kind of support can clients expect from Equinox Home Interior?
 </Text>
         </Box>
         <AccordionIcon />
@@ -231,14 +231,14 @@ const Home = () => {
     </h2>
     <AccordionPanel pb={4}>
     <Text textAlign={'justify'}>
-    At Equinox Home Designs, we prioritize customer satisfaction and aim to provide comprehensive support to our clients. From the initial consultation to project completion, we offer professional guidance, expertise, and timely communication. Our team is available to address any queries or concerns throughout the design process and even after the project is completed. We believe in building long-term relationships with our clients and providing ongoing support whenever needed.   </Text>
+    At Equinox Home Interior, we prioritize customer satisfaction and aim to provide comprehensive support to our clients. From the initial consultation to project completion, we offer professional guidance, expertise, and timely communication. Our team is available to address any queries or concerns throughout the design process and even after the project is completed. We believe in building long-term relationships with our clients and providing ongoing support whenever needed.   </Text>
     </AccordionPanel>
   </AccordionItem>
   <AccordionItem>
     <h2>
       <AccordionButton>
         <Box as="span" flex='1' textAlign='left'>
-        <Text fontWeight={'bold'}>How does Equinox Home Designs ensure timely project delivery and adherence to budgets?
+        <Text fontWeight={'bold'}>How does Equinox Home Interior ensure timely project delivery and adherence to budgets?
 </Text>
         </Box>
         <AccordionIcon />

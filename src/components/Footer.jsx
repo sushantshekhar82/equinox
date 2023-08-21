@@ -128,8 +128,8 @@ export default function Footer() {
           alignItems={{base:'center'}}>
             <ListHeader>Contact Us</ListHeader>
             <Flex justifyContent={'space-around'} gap={5} alignItems={'center'}>
-            <a href="tel:9035473892"> <Button bgColor={'white'} color={'#141438'} gap={2}><AiOutlinePhone/> Call Me</Button></a><a
-          href="https://api.whatsapp.com/send/?phone=9035473892&text=Hi+this+is+Ananya+Interiors%2C+Leave+your+message&type=phone_number&app_absent=0"
+            <a href="tel:9945089842"> <Button bgColor={'white'} color={'#141438'} gap={2}><AiOutlinePhone/> Call Me</Button></a><a
+          href="https://api.whatsapp.com/send?phone=919945089842&text=Hi%20Equinox%20Home%20Interior"
           target="_blank"
           rel="noreferrer"
         ><Button bgColor={'white'} color={'#141438'} gap={2}><BsWhatsapp/>Whatsapp</Button></a>

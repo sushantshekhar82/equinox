@@ -31,8 +31,8 @@ const Kitchen = () => {
    <Box>
     <Helmet>
   <meta charset="UTF-8"/>
-<meta name="description" content="Ananya Interiors Kitchen Collections"/>
-<meta name="keywords" content="Ananya Interiors, kitchen interiors, bedroom interiors, dining room interiors, balcony interiors,living room intriors,guest room interiors"/>
+<meta name="description" content="Equinox Home Interior Kitchen Collections"/>
+<meta name="keywords" content="Equinox Home Interior, kitchen interiors, bedroom interiors, dining room interiors, balcony interiors,living room intriors,guest room interiors"/>
 <title>Kitchen Interiors </title>
   </Helmet>
   <Navbar/>

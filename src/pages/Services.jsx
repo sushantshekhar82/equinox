@@ -9,9 +9,9 @@ const Services = () => {
   return (
     <Box><Helmet>
     <meta charset="UTF-8"/>
-  <meta name="description" content="Ananya Interiors Services"/>
-  <meta name="keywords" content="Ananya Interiors,Services, kitchen interiors, bedroom interiors, dining room interiors, balcony interiors,living room intriors,guest room interiors"/>
-  <title>Services @Ananya Interiors </title>
+  <meta name="description" content="Equinox Home Interior Services"/>
+  <meta name="keywords" content="Equinox Home Interior,Services, kitchen interiors, bedroom interiors, dining room interiors, balcony interiors,living room intriors,guest room interiors"/>
+  <title>Services @Equinox Home Interior </title>
     </Helmet>
     <Navbar/>
     <Box padding={'25px'}>

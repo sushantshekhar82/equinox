@@ -42,19 +42,19 @@ export default function CaptionCarousel() {
   // This can be static or loaded from a server
   const cards = [
     {
-      title:`"Working with Ananya Interiors was an absolute pleasure! From the initial consultation to the final installation, they demonstrated a high level of professionalism and expertise. They truly understood my vision and transformed it that exceeded my expectations."`,
+      title:`"Working with Equinox Home Interior was an absolute pleasure! From the initial consultation to the final installation, they demonstrated a high level of professionalism and expertise. They truly understood my vision and transformed it that exceeded my expectations."`,
       text:"Suhana and Gaurav",
      
       
     },
     {
-      title:`“ Ananya Interiors' attention to detail and commitment to delivering on time and within budget were commendable. I highly recommend their services to anyone seeking exceptional interior design expertise."`,
+      title:`“ Equinox Home Interior' attention to detail and commitment to delivering on time and within budget were commendable. I highly recommend their services to anyone seeking exceptional interior design expertise."`,
       text:"Rohini and Mohit",
      
       
     },
     {
-      title:`"I had the pleasure of working with Ananya Interiors to revamp my restaurant, and I must say, they exceeded my expectations in every way. The team at Ananya Interiors understood the unique atmosphere I wanted to create and translated it flawlessly into a captivating interior design. ”`,
+      title:`"I had the pleasure of working with Equinox Home Interior to revamp my restaurant, and I must say, they exceeded my expectations in every way. The team at Equinox Home Interior understood the unique atmosphere I wanted to create and translated it flawlessly into a captivating interior design. ”`,
       text:"Parul and Rohan Bist",
      
       
