@@ -44,7 +44,16 @@ textarea{
 
 
     @media screen and (max-width:520px) {
-     
+      .intro{
+       
+        width: 100%;
+        height: auto;
+        background-image: url("./Assets/banner1.jpg");
+        background-repeat: repeat;
+        color: white;
+        background-size: cover;
+        background-position: left;
+      }
       .form{
         display: flex;
         background-color: transparent;

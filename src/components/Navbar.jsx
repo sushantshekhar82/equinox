@@ -96,7 +96,7 @@ export default function Navbar() {
             _hover={{
               bg: '#141438',
             }}>
-            Get Quotes
+           Contact 
           </Button></Link>
         </Stack>
       </Flex>
@@ -122,7 +122,7 @@ const DesktopNav = () => {
              
                <Link to={navItem.href}><Text p={2}
                
-               fontSize={'sm'}
+               fontSize={'xl'}
                fontWeight={'bold'}
                color={linkColor}
                _hover={{

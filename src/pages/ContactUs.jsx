@@ -28,8 +28,8 @@ const ContactUs = () => {
 
     <Box padding={'10px'} backgroundColor={'#141438'}>
     <Grid templateColumns={{base:'1fr',lg:'1fr 1fr'}} justifyContent={'center'} alignItems={'center'}>
-           <GridItem paddingTop={'5px'}>
-            <Image src="./contact.webp" />
+           <GridItem paddingTop={{base:'15px',lg:'5px'}} paddingLeft={{base:'2px',lg:'20px'}}>
+            <Image src="./contact.webp" width={{base:'auto',lg:'650px'}} height={{base:'auto',lg:'550px'}}/>
            </GridItem>
            <GridItem>
            <Stack spacing={8} mx={'auto'}  py={5} px={2}  justifyContent={'center'} alignItems={'center'}>

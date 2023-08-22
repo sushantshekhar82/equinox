@@ -6,7 +6,7 @@ import CardCarousel from '../components/CardCarousel';
 import {MdOutlineVerified} from 'react-icons/md'
 import {CiDiscount1} from 'react-icons/ci'
 import {TbShoppingCartDiscount} from 'react-icons/tb'
-import {BsBagHeart} from 'react-icons/bs'
+import {BsBagHeart,BsEmojiSmile} from 'react-icons/bs'
 import {HiHome} from 'react-icons/hi'
 import {RiCustomerService2Fill} from 'react-icons/ri'
 import ImageCard from '../components/ImageCard';
@@ -22,6 +22,8 @@ import {
 import CaptionCarousel from '../components/Carousel';
 import { Helmet } from 'react-helmet';
 import Navbar from '../components/Navbar';
+import Slider from '../components/Slider';
+import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <Box>
@@ -32,8 +34,9 @@ const Home = () => {
 <title>Equinox Home Interior </title>
   </Helmet>
   <Navbar/>
+  <Slider/>
        <div id="home" className="intro">
-        <Box margin={'auto'} float={'left'}  width={'500'} height={'auto'} marginTop={{base:'115px',lg:'100px'}} marginLeft={{base:'15px',lg:'150px'}} >
+        <Box margin={'auto'} float={'left'}  width={'500'} height={'auto'} marginTop={{base:'10px',lg:'100px'}} marginLeft={{base:'1px',lg:'150px'}} >
        <Text as={'h1'} color={{base:'#141438',lg:'white'}}  textAlign={'center'} fontSize={'25px'} fontWeight={'bold'}>Meet Our Designers</Text>
        <Box className="form"  margin={'auto'}>
        
@@ -51,14 +54,160 @@ const Home = () => {
   </Box>
      
       </div>
-      <Box padding={'25px'}>
-        <Text fontSize={{base:'4xl',lg:'5xl'}} fontWeight={'bold'} color={'#141438'}>
+      <Box padding={{base:'5px',lg:'25px'}}>
+        <Text fontSize={{base:'3xl',lg:'5xl'}} textAlign={{base:'center',lg:'left'}} fontWeight={'bold'} color={'#141438'}>
           Services we are giving
         </Text>
-        <CardCarousel/>
+      <Grid gridTemplateColumns={{base:'1fr 1fr', lg:'1fr 1fr 1fr '}}>
+        <GridItem>
+        <Box>
+      <Link to={'/'}>
+    <Box
+    display="inline-block"
+    position="relative"
+    borderRadius={'5px'}
+    overflow="hidden"
+    width={{base:'95%',lg:'95%'}}
+   height={{base:'200px',lg:'250px'}}
+    transition="transform 0.3s"
+  
+    _hover={{
+      transform: "scale(1.02)",
+    }}
+    
+  >
+    <Image src='./onebhk.jpg' alt="Image" width="100%" height="100%" objectFit="cover" />
+    
+  </Box>
+  <Text fontSize={{base:'18px',lg:'20px'}} color={'black'} fontWeight={'bold'} textAlign={'center'} >1BHK</Text>
+  </Link>
+  </Box>
+        </GridItem>
+       
+        <GridItem>
+        <Box>
+      <Link to={'/'}>
+    <Box
+    display="inline-block"
+    position="relative"
+    borderRadius={'5px'}
+    overflow="hidden"
+    width={{base:'95%',lg:'95%'}}
+   height={{base:'200px',lg:'250px'}}
+    transition="transform 0.3s"
+  
+    _hover={{
+      transform: "scale(1.02)",
+    }}
+   
+  >
+    <Image src='./twobhk.jpg' alt="Image" width="100%" height="100%" objectFit="cover" />
+    
+  </Box>
+  <Text fontSize={{base:'18px',lg:'20px'}} color={'black'} fontWeight={'bold'} textAlign={'center'} >2BHK</Text>
+  </Link>
+  </Box>
+        </GridItem>
+        <GridItem>
+        <Box>
+      <Link to={'/'}>
+    <Box
+    display="inline-block"
+    position="relative"
+    borderRadius={'5px'}
+    overflow="hidden"
+    width={{base:'95%',lg:'95%'}}
+   height={{base:'200px',lg:'250px'}}
+    transition="transform 0.3s"
+  
+    _hover={{
+      transform: "scale(1.02)",
+    }}
+   
+  >
+    <Image src='./threebhk.jpg' alt="Image" width="100%" height="100%" objectFit="cover" />
+    
+  </Box>
+  <Text fontSize={{base:'18px',lg:'20px'}} color={'black'} fontWeight={'bold'} textAlign={'center'} >3BHK</Text>
+  </Link>
+  </Box>
+        </GridItem>
+        <GridItem>
+        <Box>
+      <Link to={'/'}>
+    <Box
+    display="inline-block"
+    position="relative"
+    borderRadius={'5px'}
+    overflow="hidden"
+    width={{base:'95%',lg:'95%'}}
+   height={{base:'200px',lg:'250px'}}
+    transition="transform 0.3s"
+  
+    _hover={{
+      transform: "scale(1.02)",
+    }}
+    
+  >
+    <Image src='./bunglow.jpg' alt="Image" width="100%" height="100%" objectFit="cover" />
+    
+  </Box>
+  <Text fontSize={{base:'18px',lg:'20px'}} color={'black'} fontWeight={'bold'} textAlign={'center'} >BUNGLOW</Text>
+  </Link>
+  </Box>
+        </GridItem>
+        <GridItem>
+        <Box>
+      <Link to={'/'}>
+    <Box
+    display="inline-block"
+    position="relative"
+    borderRadius={'5px'}
+    overflow="hidden"
+    width={{base:'95%',lg:'95%'}}
+   height={{base:'200px',lg:'250px'}}
+    transition="transform 0.3s"
+  
+    _hover={{
+      transform: "scale(1.02)",
+    }}
+   
+  >
+    <Image src='./commercial.jpg' alt="Image" width="100%" height="100%" objectFit="cover" />
+    
+  </Box>
+  <Text fontSize={{base:'18px',lg:'20px'}} color={'black'} fontWeight={'bold'} textAlign={'center'} >COMMERCIAL PLACES</Text>
+  </Link>
+  </Box>
+        </GridItem>
+        <GridItem>
+        <Box>
+      <Link to={'/'}>
+    <Box
+    display="inline-block"
+    position="relative"
+    borderRadius={'5px'}
+    overflow="hidden"
+    width={{base:'95%',lg:'95%'}}
+   height={{base:'200px',lg:'250px'}}
+    transition="transform 0.3s"
+  
+    _hover={{
+      transform: "scale(1.02)",
+    }}
+   
+  >
+    <Image src='./others.jpg' alt="Image" width="100%" height="100%" objectFit="cover" />
+    
+  </Box>
+  <Text fontSize={{base:'18px',lg:'20px'}} color={'black'} fontWeight={'bold'} textAlign={'center'} >OTHERS</Text>
+  </Link>
+  </Box>
+        </GridItem>
+      </Grid>
 
       </Box>
-      <Box padding={'25px'}>
+      <Box padding={{base:'5px',lg:'25px'}} display={{base:'none',lg:'block'}}>
       <Text fontSize={{base:'4xl',lg:'5xl'}} fontWeight={'bold'} color={'#141438'}>
          Why Choose Us?
         </Text>
@@ -87,7 +236,7 @@ const Home = () => {
                    
                   </GridItem>
                   <GridItem>
-                    <Grid templateRows={'auto auto'} justifyContent={'center'} alignItems={'center'} >
+                    <Grid templateRows={'auto auto'} justifyContent={'center'} alignItems={'center'}  >
                       <GridItem> <TbShoppingCartDiscount color={'#141438'} fontSize={'100px'}/></GridItem>
                       <GridItem>
                       
@@ -105,7 +254,7 @@ const Home = () => {
                   </GridItem>
                   <GridItem>
                     <Grid templateRows={'auto auto'} justifyContent={'center'} alignItems={'center'} >
-                      <GridItem paddingLeft={'15px'}> <BsBagHeart color={'#141438'} fontSize={'100px'}/>
+                      <GridItem paddingLeft={'15px'}> <BsEmojiSmile color={'#141438'} fontSize={'100px'}/>
                      
        </GridItem>
                       <GridItem >
@@ -137,8 +286,34 @@ const Home = () => {
           </GridItem>
         </Grid>
       </Box>
+      <Box padding={{base:'5px',lg:'25px'}} display={{base:'block',lg:'none'}}>
+      <Text fontSize={{base:'4xl',lg:'5xl'}} fontWeight={'bold'} color={'#141438'}>
+         Why Choose Us?
+        </Text>
+        <Grid gridTemplateColumns={'1fr 1fr'} gap={1} justifyContent={'center'} alignItems={'center'} >
+           
+            <GridItem>  <Grid gridTemplateColumns={'1fr'}  margin={'auto'} gridTemplateRows={'auto'} justifyContent={'center'} alignItems={'center'} >
+                 <GridItem margin={'auto'}><MdOutlineVerified fontSize={'50px'}/></GridItem>
+            <GridItem><Text fontWeight={'bold'} textAlign={'center'}>100+ Designs Experts</Text></GridItem>
+                 </Grid></GridItem>
+            <GridItem>  <Grid gridTemplateColumns={'1fr'}  margin={'auto'} gridTemplateRows={'auto'} justifyContent={'center'} alignItems={'center'} >
+                 <GridItem margin={'auto'}><TbShoppingCartDiscount fontSize={'50px'}/></GridItem>
+            <GridItem><Text fontWeight={'bold'} textAlign={'center'}>Luxurious Design</Text></GridItem>
+                 </Grid></GridItem>
+            <GridItem>  <Grid gridTemplateColumns={'1fr'}  margin={'auto'} gridTemplateRows={'auto'} justifyContent={'center'} alignItems={'center'} >
+                 <GridItem margin={'auto'}><BsEmojiSmile fontSize={'50px'}/></GridItem>
+            <GridItem><Text fontWeight={'bold'} textAlign={'center'}>Happpy customers</Text></GridItem>
+                 </Grid></GridItem>
+                 <GridItem>
+                 <Grid gridTemplateColumns={'1fr'}  margin={'auto'} gridTemplateRows={'auto'} justifyContent={'center'} alignItems={'center'} >
+                 <GridItem margin={'auto'}><RiCustomerService2Fill fontSize={'50px'}/></GridItem>
+            <GridItem><Text fontWeight={'bold'} textAlign={'center'}>Customer Support</Text></GridItem>
+                 </Grid>
+            </GridItem>
+        </Grid>
+        </Box>
 
-      <Box padding={'25px'}>
+      <Box padding={{base:'5px',lg:'25px'}}>
       <Text fontSize={{base:'4xl',lg:'5xl'}} fontWeight={'bold'} color={'#141438'}>
           We are designing
         </Text>

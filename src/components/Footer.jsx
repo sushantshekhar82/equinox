@@ -14,6 +14,7 @@ import {
   Flex,
   useToast,
   Button,
+  Grid,
 } from '@chakra-ui/react';
 import { ReactNode, useState } from 'react';
 import '../App.css';
@@ -95,11 +96,11 @@ export default function Footer() {
           spacing={8}
           
           >
-          <Stack spacing={6}>
-            <Box>
+          <Stack spacing={6}  >
+            <Box  >
               <Flex gap={4}>
             <Link to='/'> 
-            <Text fontWeight={'bold'} fontSize={'2xl'}>Equinox Home Designs</Text></Link>
+            <Text fontWeight={'bold'} fontSize={'2xl'} textAlign={'center'}>Equinox Home Designs</Text></Link>
             </Flex>
             </Box>
             
@@ -110,19 +111,16 @@ export default function Footer() {
                 
               <a href="" target="_blank"> <FaInstagram/></a>
               </SocialButton>
-             <a href='mailto:annanyainteriors@gmail.com'><BiMailSend fontSize={'20px'}/></a>
+             <a href='mailto:equinoxhomeinterior7@gmail.com'><BiMailSend fontSize={'20px'}/></a>
              </Flex>
             </Stack>
 
           </Stack>
-          <Stack align={'flex-start'}>
-            
-            <Link to='/aboutus'><Text fontWeight={'bold'}>About us</Text></Link>
-            <Link to='/services'><Text fontWeight={'bold'}>Services</Text></Link>
-            <Link to='/contactus'><Text fontWeight={'bold'}>Contact us</Text></Link>
-            <Link to='/contactus'><Text fontWeight={'bold'}>FAQ</Text></Link>
-            
-          </Stack>
+          <Stack align={{base:'center',lg:'flex-start'}}>
+            <Text fontSize={'xl'} fontWeight={'bold'}>Address:</Text>
+            <Text>Equinox home interior, Kadubeesananhalli Panathur Main Road, Bellandur Near Railway Station, Bangalore-87
+         </Text>
+             </Stack>
           
           <Stack align={'flex-start'} justifyContent={{base:'center'}}
           alignItems={{base:'center'}}>
